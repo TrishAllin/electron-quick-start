@@ -1,11 +1,13 @@
 {
-  "name": "electron-quick-start",
+  "name": "electron-playground",
   "version": "1.0.0",
   "description": "A minimal Electron application",
   "main": "main.js",
   "scripts": {
+    "compile": "browserify -t [ babelify --presets [ react es2015 ] ] src/app.js -o js/app.js",
     "start": "electron ."
   },
+  "author": "Trisha Allin",
   "repository": "https://github.com/electron/electron-quick-start",
   "keywords": [
     "Electron",
