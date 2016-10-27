@@ -1,13 +1,16 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+// import React from 'react';
+// import ReactDOM from 'react-dom';
 
-class Search extends React.Component {
-    render() {
-        return <h1>Hi!</h1>;
-    }
-}
+// const RootComponent = React.createClass({
+// 	render: function() {
+// 		return (
+// 			<div>
+// 			</div>
+// 		);
+// 	}
+// });
 
-ReactDOM.render( 
-	<Search />,
-    document.getElementById('app')
-);
+// ReactDOM.render( 
+// 	<RootComponent />,
+//     document.getElementById('app')
+// );
