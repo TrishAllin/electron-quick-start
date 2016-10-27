@@ -85,4 +85,3 @@ rules:
   # https://github.com/eslint/eslint/tree/master/docs/rules#strict-mode
   strict: [2, "global"]
   "react/prop-types": [0]
-Contact GitHub API Training Shop Blog About

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Hello World!</title>
+    <script>
+      window.requireNode = window.require;
+      delete window.require;
+    </script>
+    <script src="vendor.js"></script>
+    <script src="app.js"></script>
+    <script>require('app.js')</script>
+    <link rel="stylesheet" type="text/css" href="app.css">
+  </head>
+  <body>
+    <div id="app"></div>
+    <!-- All of the Node.js APIs are available in this renderer process. -->
+    <!-- We are using node <script>document.write(process.versions.node)</script>,
+    Chromium <script>document.write(process.versions.chrome)</script>,
+    and Electron <script>document.write(process.versions.electron)</script>. -->
+  </body>
+</html>
